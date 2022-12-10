@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "HallymGothic-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  font-family: HallymGothic-Regular;
+}
+.bg {
+  width: 360px;
+  background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+}
+.title {
+  color: white;
+  background-color: tomato;
+  font-size: 24px;
+  padding: 4px 14px;
+  border-radius: 8px;
+  text-align: center;
+}
+.msg {
+  font-weight: bold;
+}
+.bucket {
+  width: 160px;
+  height: 160px;
+}
+.img1 {
+  background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+  background-size: cover;
+  background-position: center;
+}
+.img2 {
+  background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+  background-size: cover;
+  background-position: center;
+}
