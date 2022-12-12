@@ -5,6 +5,9 @@
   font-weight: 400;
   font-style: normal;
 }
+html {
+  font-size: 16px;
+}
 * {
   font-family: HallymGothic-Regular;
 }
@@ -27,6 +30,9 @@
   width: 160px;
   height: 160px;
 }
+.bucket:hover {
+  cursor: pointer;
+}
 .img1 {
   background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
   background-size: cover;
@@ -36,4 +42,21 @@
   background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
   background-size: cover;
   background-position: center;
+}
+
+.addBtnDiv {
+  margin: 50px 0;
+}
+.addBtn {
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 100%;
+  padding: 15px 25px;
+}
+.addBtn:hover {
+  cursor: pointer;
 }
